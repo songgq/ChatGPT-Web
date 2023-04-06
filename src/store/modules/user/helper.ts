@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://avatars.githubusercontent.com/u/34435182?v=4',
       name: 'Song11',
-      description: '繁衍~',
+      description: 'API费用吃紧,现在只供工作室内小伙伴使用,余额用完为止~',
     },
   }
 }
