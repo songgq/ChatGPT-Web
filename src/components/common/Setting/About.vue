@@ -42,7 +42,8 @@ onMounted(() => {
   <NSpin :show="loading">
     <div class="p-4 space-y-4">
       <h2 class="text-xl font-bold">
-				 接口使用情况
+					Version - {{ pkg.version }}
+				
       </h2>
       <p>API费用吃紧,现在只供工作室内小伙伴使用,余额用完为止~</p>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
