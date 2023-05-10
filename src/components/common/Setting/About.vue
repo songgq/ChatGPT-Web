@@ -45,7 +45,7 @@ onMounted(() => {
 					Version - {{ pkg.version }}
 				
       </h2>
-      <p>API费用吃紧,现在只供工作室内小伙伴使用,余额用完为止~</p>
+      <p>API费用吃紧,现在只供工作室内小伙伴使用,余额用完为止~~</p>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p v-if="isChatGPTAPI">
         {{ $t("setting.balance") }}：{{ config?.balance ?? '-' }}
